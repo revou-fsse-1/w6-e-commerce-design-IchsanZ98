@@ -2,11 +2,17 @@
 
 ## High Level Design
 
-![activity-diagram](assets/activity-diagram_updated.png)
+![activity-diagram](assets/activity-diagram.png)
 
 The diagram depicted above provides a simple perspective of a basic e-commerce system using an activity diagram. It illustrates the procedure of displaying detail product to the user and create an order for the chosen product.
 
 ## Create Order Details
+
+The image presented below provides a summary of the order flow, on the assumption that user information and product specifics are present in the database.
+
+![sequence-diagram](assets/sequence-diagram.png)
+
+The following is an in-depth pseudocode process for create an order.:
 
 ```pseudocode
 // Get the product by ID, check if the product is in stock
