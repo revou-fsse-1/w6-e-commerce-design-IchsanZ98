@@ -42,3 +42,5 @@ function createOrder(productID, quantity) {
   };
 }
 ```
+## Complexity Analysis
+The  complexity of this function is O(n), where n is the number of products in the database. This is because the function iterates over the database using a for loop, and performs a constant number of operations (i.e., accessing and updating the database, computing the total price, and creating a new order) for each product in the list.
